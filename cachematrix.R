@@ -8,6 +8,7 @@
 ## matrix and recalled when needed.
 
 makeCacheMatrix <- function(x = matrix()) {
+  mat <- x
   inv <- NULL
   set <- function(m) {
     mat <<- m
